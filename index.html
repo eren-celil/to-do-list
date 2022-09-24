@@ -14,12 +14,13 @@
         </div>
 
         <div id="newtask">
-            <input type="text" placeholder="Add New Task">
+            <input id="entry" type="text" placeholder="Add New Task" onChange="removeError()">
             <button id="push">Add</button>
-            <div id="tasks"></div>
+            <div id="tasks">
+                <p id="placeHolder">There is no task!</p>
+            </div>
         </div>
     </div>
-
    
 
 <script src="js.js"></script>
